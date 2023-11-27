@@ -1,0 +1,57 @@
+body {
+    background: fixed linear-gradient(rgb(0, 0, 0, 1), teal);
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+
+}
+
+.missMinutes {
+    display: inline-flex;
+    font-size: x-large;
+}
+
+.missMinutes img {
+    border: rgb(255, 94, 0) solid 2px;
+    border-radius: 25px;
+    width: 120px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.button {
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: 50;
+    font-size: x-large;
+}
+
+.mytext,
+.fig {
+    background-color: black;
+    color: white;
+}
+
+.display,
+.user_input {
+    border: teal, solid;
+    border-width: 2px;
+    border-radius: 5px;
+    font-size: large;
+}
+
+.currenttime,
+.display_birthday {
+    border: black 3px solid;
+    border-radius: 8px;
+    display: inline-flex;
+    padding: 25px;
+
+}
+
+* {
+    font-family: 'Lora', serif;
+    text-align: center;
+
+}
